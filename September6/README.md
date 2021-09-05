@@ -1,1 +1,12 @@
+# Autonomous Robots as Perfoming Agents
+## Response
+
+One part of the paper that really got me thinking was the difference between physical and digital agents in performing. The potential with the medium of digital agents/animations seems to be limitless; especially if the goal is to entertain an audience, physical agents seem to be more restrictive due to limitations in their construction. (On a side note, I would also slightly disagree with the sole goal of entertaining – I think the goal of performing agents is a lot broader than just entertainment, and evolves around evoking emotional reaction in the audience. But that’s for another discussion.)
+
+As it was mentioned in the paper, there needs to be common language established between the performer and the audience, which, in the case of performing robots, is often non-verbal. From my perspective the non-verbal common language would be so much easier to achieve through animation, since it is not limited by physical constraints. As we discussed on the example of moving triangles, just the way the movement is animated immediately personifies the triangles/agents, and each of their movement immediately starts communicating a specific meaning. This seems to be a lot more difficult to achieve with physical robots, movements of which are more difficult to recognize as humanlike – therefore, a lot more difficult for our lazy brains to recognize meanings and emotion in them. 
+
+So, what is it about physical performing agents that causes audiences to have “a more immediate rapport”? The paper offers only a simple justification of this artistic choice, saying that puppets are “more entertaining and engaging” since they are physically present in the space. 
+
+However, the non-verbal language of the agent is more compromised, more limited than the non-verbal language of an animation. So, does the physical presence of an agent really make this trade off worth it? Why is it that the audience seems to be more engaged with an agent they can understand less/with a lot more difficulty? What is it about the physical agents that draws the attention of an audience more, even though it is more difficult for the audience to establish a common language? Can it be that the animation is way that is too easy, even boring, therefore less engaging? Or is there something else?  
+![image](https://user-images.githubusercontent.com/89770035/132123974-7bd2afe0-e17c-4136-838d-d08aa9cb1be6.png)
 
