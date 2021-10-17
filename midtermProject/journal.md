@@ -54,12 +54,14 @@ The controller therefore ended up like this:
 
 ## (3) Final Version 
 The final version of the robot performed as such: ran smoothly forward, got stuck, searched around for help, tried to communicate for help through the "broken" distorted neopixel text, and then slowed down the searching movement, until the distorted text sequence saying "give up" is triggered. After the flowing text stops, then the robot completely stops and the performance ends. 
-<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="60%" height="60%"> </p>
 
 And here is the final Video: https://youtu.be/5rlaMOTv2rY
+<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="60%" height="60%"> </p>
 
-<p> The main learning points from this project (or more like points to learn in the future):
+
+
+The main learning points from this project (or more like points to learn in the future):
 - improve and understand better the use of millis
 - radio communication using analog values 
 - construction wise (get different cardboard and a smaller breadboard!) so the next robot can be fully mobile. Even though I got rid of the cable and got the robot fully running on batteries, the next level is to make it sturdy enough to carry all its components. 
-</p>
+
