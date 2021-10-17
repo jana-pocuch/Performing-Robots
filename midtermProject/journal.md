@@ -24,7 +24,7 @@ I am also using tack for holding the Neopixel in place, but that one, as opposed
 However, the biggest problem I faced is my lack of coding skills :))) I managed to work on small sequences separately (motors, servos and Neopixel), but the moment I try to paste it all together is where it collapses. I also feel like I am just using sample codes from Arduino and from our class and feel very restricted when it comes to writing code myself (especially for the Neopixel animation). I spent several hours trying to understand how the sample codes work, but I did not manage to understand it to the extent I would be able to put my own visual animation idea into code. So, unfortunatelly, this seems like the biggest obstacle so far, that I will need to spend a lot of time on, just doing endless loops of trial and error. 
 
 ## (2) Process
-The main continuous challenge throghout this project was to make the three parts work together. For 99% of the whole process, my robot was deconstructed into separate parts, with me constantly uploading code to it in a trial-error manner. So my workspace resembled anything but a robot:
+The main continuous challenge throghout this project was to make the three parts work together. For 99% of the whole process, my robot was deconstructed into separate parts, with me constantly uploading code to it in a trial-error manner. So my workspace resembled anything but a robot for majority of the time:
 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137500553-cec0f5df-4e8b-45b3-bc84-cbb03a961d33.JPG" width="30%" height="30%"> </p>
 
@@ -36,7 +36,7 @@ I also came across an amazing resource called [LED Matrix Control Software HD](h
 
 This tool provides a lot potential for trying out different ideas and seeing how they present visually in an instant (as opposed to tediously coding any brianstormed idea you had. 
 
-However, because the exported code uses delays (which causes problems to rest of the code), I decided to go for a different idea using the Adafruit Neomatrix library, which enable you to input flowing test. I played with the function that distorts the text (NEO_MATRIX_ZIGZAG) and I spelled out the words "Searching" and "Give up" in two sequnces. 
+However, because the exported code uses delays (which causes problems to the rest of the code), I decided to go for a different idea using the Adafruit Neomatrix library, which enables you to input flowing test. I played with the function that distorts the text (NEO_MATRIX_ZIGZAG) and I spelled out the words "Searching" and "Give up" in two sequnces. 
 
 In terms of physical construction problems, I struggled with fixating the neopixel in a 90 degreee angle, but blue tack and a piece of cardboard turned out to be the most reliable solution. 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137632800-a732de64-5a7b-4156-abf3-c5021874dcd7.JPG" width="30%" height="30%"> </p>
@@ -44,7 +44,7 @@ In terms of physical construction problems, I struggled with fixating the neopix
 **Servo**
 <p>I had the same challenge with the servo - to make it run without using "delay". I'm still wrapping my mind around the use of millis(), and I initially wanted the servo to be part of a sequence triggered by a button, but my code made other parts of the robots unresponsive after that servo sequence. I therefore decided to use a potentiometer to control the servo. 
 
-However, I struggled to send the potentiometer values through the radios - which is definitely something I want to learn for the final project. Unfortunately, despite many tries I had to give up and wire up the potentiometer on the same Arduino as the robot (not on the controller). It still feels like quite a failure and disappointment on my side. </p>
+However, I struggled to send the potentiometer values through the radios - which is definitely something I want to learn for the final project. Unfortunately, despite many tries I had to give up and wire up the potentiometer on the same Arduino as the robot (not on the controller). It still feels like quite a failure and disappointment on my side, but hopefully I will get that working. </p>
 
 The controller therefore ended up like this: 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137637144-c93962d2-161b-4537-b792-9358a1499973.jpg" width="60%" height="60%"> </p>
