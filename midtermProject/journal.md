@@ -30,8 +30,8 @@ The main continuous challenge throghout this project was to make the three parts
 
 
 
-NeoPixel 
-I spent a lot of time trying to program neopixel sequences myself, but it took me a lot to even understand some of the prebuilt example code, and I could not really bring my vision to life, without using delay. Here are some initial ideas I was sketching: 
+**NeoPixel** 
+<p> I spent a lot of time trying to program neopixel sequences myself, but it took me a lot to even understand some of the prebuilt example code, and I could not really bring my vision to life, without using delay. Here are some initial ideas I was sketching: 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137503425-ee80329e-1c5f-4653-a8de-75e29d42191e.jpg" width="30%" height="30%"> </p>
 
 I also came across an amazing resource called [LED Matrix Control Software HD](https://github.com/TylerTimoJ/LMCSHD). It is more of a passion project, rather than a full-on working sofware (it works rather unreliably), but it enables ju to either design the neopixel sequence usign a user friendly visual interface, or it enables you to upload a picture/gif and it will translate it into a neopixel code. 
@@ -40,13 +40,20 @@ This tool provides a lot potential for trying out different ideas and seeing how
 
 However, because the exported code uses delays (which causes problems to rest of the code), I decided to go for a different idea using the Adafruit Neomatrix library, which enable you to input flowing test. I played with the function that distorts the text (NEO_MATRIX_ZIGZAG) and I spelled out the words "Searching" and "Give up" in two sequnces. 
 
-In terms of physical construction problems, I struggled with fixating the neopixel in a 90 degreee angle, but this is the solut
+In terms of physical construction problems, I struggled with fixating the neopixel in a 90 degreee angle, but blue tack and a piece of cardboard turned out to be the most reliable solution. 
+<p> <img src="https://user-images.githubusercontent.com/89770035/137632800-a732de64-5a7b-4156-abf3-c5021874dcd7.JPG" width="30%" height="30%"> </p>
+
+**Servo**
+<p>I had the same challenge with the servo - to make it run without using "delay". I'm still wrapping my mind around the use of millis(), and I initially wanted the servo to be part of a sequence triggered by a button, but my code made other parts of the robots unresponsive after that servo sequence. I therefore decided to use a potentiometer to control the servo. 
+
+However, I struggled to send the potentiometer values through the radios - which is definitely something I want to learn for the final project. Unfortunately, despite many tries I had to give up and wire up the potentiometer on the same Arduino as the robot (not on the controller). It still feels like quite a failure and disappointment on my side. </p>
 
 
-Servo 
-I had the same challenge with the servo- to make it run without using "delay". I'm still wrapping my mind around the use of millis(), and I initially wanted the servo to be part of a sequence triggered by a button, but my code made other parts of the robots unresponsive after that sequence. 
+**Motors**
+I wanted the locomotion of the robot to first go smoothly and then get stuck. Instead of coding this I just placed an external obstacle in its way while performing. This obstacle imitates externality that gets in the away, despite the code and the robot functioning smoothly. In the process, however, I had to go through the typical 
 
+## Final Version 
+The final version of the robot performed as such: ran smoothly forward, got stuck, searched around for help, tried to communicate for help through the "broken" distorted neopixel text, and then slowed down the searching movement, until the distorted text sequence saying "give up" is triggered. After the flowing text stops, then the robot completely stops and the performance ends. 
+<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="30%" height="30%"> </p>
 
-Motors
-![image](https://user-images.githubusercontent.com/89770035/137594327-b7677685-5c48-4d47-8180-8da07527730c.png)
 
