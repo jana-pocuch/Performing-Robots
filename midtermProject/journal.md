@@ -28,8 +28,6 @@ The main continuous challenge throghout this project was to make the three parts
 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137500553-cec0f5df-4e8b-45b3-bc84-cbb03a961d33.JPG" width="30%" height="30%"> </p>
 
-
-
 **NeoPixel** 
 <p> I spent a lot of time trying to program neopixel sequences myself, but it took me a lot to even understand some of the prebuilt example code, and I could not really bring my vision to life, without using delay. Here are some initial ideas I was sketching: 
 <p> <img src="https://user-images.githubusercontent.com/89770035/137503425-ee80329e-1c5f-4653-a8de-75e29d42191e.jpg" width="30%" height="30%"> </p>
@@ -52,8 +50,8 @@ However, I struggled to send the potentiometer values through the radios - which
 **Motors**
 I wanted the locomotion of the robot to first go smoothly and then get stuck. Instead of coding this I just placed an external obstacle in its way while performing. This obstacle imitates externality that gets in the away, despite the code and the robot functioning smoothly. In the process, however, I had to go through the typical 
 
-## Final Version 
+## (3) Final Version 
 The final version of the robot performed as such: ran smoothly forward, got stuck, searched around for help, tried to communicate for help through the "broken" distorted neopixel text, and then slowed down the searching movement, until the distorted text sequence saying "give up" is triggered. After the flowing text stops, then the robot completely stops and the performance ends. 
-<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="30%" height="30%"> </p>
+<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="40%" height="40%"> </p>
 
 
