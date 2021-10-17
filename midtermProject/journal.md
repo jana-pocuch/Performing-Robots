@@ -40,7 +40,7 @@ This tool provides a lot potential for trying out different ideas and seeing how
 
 However, because the exported code uses delays (which causes problems to rest of the code), I decided to go for a different idea using the Adafruit Neomatrix library, which enable you to input flowing test. I played with the function that distorts the text (NEO_MATRIX_ZIGZAG) and I spelled out the words "Searching" and "Give up" in two sequnces. 
 
-In terms of physical construction problems, I struggled with fixating the neopixel in a 90 degreee. 
+In terms of physical construction problems, I struggled with fixating the neopixel in a 90 degreee angle, but this is the solut
 
 
 Servo 
