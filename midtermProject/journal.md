@@ -45,6 +45,8 @@ In terms of physical construction problems, I struggled with fixating the neopix
 <p>I had the same challenge with the servo - to make it run without using "delay". I'm still wrapping my mind around the use of millis(), and I initially wanted the servo to be part of a sequence triggered by a button, but my code made other parts of the robots unresponsive after that servo sequence. I therefore decided to use a potentiometer to control the servo. 
 
 However, I struggled to send the potentiometer values through the radios - which is definitely something I want to learn for the final project. Unfortunately, despite many tries I had to give up and wire up the potentiometer on the same Arduino as the robot (not on the controller). It still feels like quite a failure and disappointment on my side. </p>
+<p> <img src="https://user-images.githubusercontent.com/89770035/137637144-c93962d2-161b-4537-b792-9358a1499973.jpg" width="30%" height="30%"> </p>
+
 
 
 **Motors**
@@ -52,11 +54,11 @@ However, I struggled to send the potentiometer values through the radios - which
 
 ## (3) Final Version 
 The final version of the robot performed as such: ran smoothly forward, got stuck, searched around for help, tried to communicate for help through the "broken" distorted neopixel text, and then slowed down the searching movement, until the distorted text sequence saying "give up" is triggered. After the flowing text stops, then the robot completely stops and the performance ends. 
-<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="50%" height="50%"> </p>
+<p> <img src="https://user-images.githubusercontent.com/89770035/137633648-9093591c-0a3d-4eb0-92f3-3742d063ae0c.jpg" width="60%" height="60%"> </p>
 
 And here is the final Video: https://youtu.be/5rlaMOTv2rY
 
-<p> **The main learning points from this project **(or more like points to learn in the future):
+<p> **The main learning points from this project** (or more like points to learn in the future):
 - improve and understand better the use of millis
 - radio communication using analog values 
 - construction wise (get different cardboard and a smaller breadboard!) so the next robot can be fully mobile. Even though I got rid of the cable and got the robot fully running on batteries, the next level is to make it sturdy enough to carry all its components. 
