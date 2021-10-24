@@ -1,6 +1,4 @@
 # Theatre play and Actor: TheAItre, Scene 6
-Choose a short scene from a play and a character in that scene, and consider how you would make a robot actor to perform that scene. Any spoken words will come from a human or a computer, not from your actor.
-
 When I was preparing for my presentation on Capek's play _R.U.R._ I came across a play writtecn completely by an AI - the project celebrated the 100th anniversary of the original Capek's publication, which introduced the word robot to the world. Due to its element of absurdity, I chose the sixth scene of the TheAItre play titled "Burn Out". In this scene, robot sits at psychologist’s office, because he feels like his existence has no meaning.
 Full play can be found here: [theAItre.pdf](https://github.com/jana-pocuch/Performing-Robots/files/7406288/theAItre.pdf)
 
