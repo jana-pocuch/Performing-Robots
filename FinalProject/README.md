@@ -16,7 +16,7 @@
 
 ## Script Outline
 ### Scene 2
-Grumpy should be moving in a fast and sharp manner, frantically going around. Frantic arm gestures should also be included (arms would be preferrably controlled by potentiometers). The neopixel sequnce would also be alternating between indifferent and very grumpy (probably two states - simple animation). Grumpy would potentially be one of the first dwarfs leading them home in a line, as he cannot wait to be alone and out of work. 
+Grumpy should be moving in a fast and sharp manner, frantically going around. Frantic arm gestures should also be included (arms would be preferrably controlled by potentiometers). The neopixel sequence would also be alternating between indifferent and very grumpy (probably two states - simple animation). Grumpy would potentially be one of the first dwarfs leading them home in a line, as he cannot wait to be alone and out of work. 
 
 ### Scene 3
 Grumpy is just staring at Snow white (DC motors not moving) and then angrily throwing its hands around (with the neopixel sequnce being static on the "very grumpy" state. 
