@@ -25,16 +25,31 @@ Grumpy is just staring at Snow white (DC motors not moving) and then angrily thr
 ### Scene 5 (Snow White falls asleep because of the bug) 
 Grumpy's arms lower, his neopixel state goes to "indifferent". He slowly moves around Snow White in confusion. 
 
-NOVEMBER 29 - DECEMBER 6
 # AND JUST LIKE THAT, DOPEY IT IS
+<pre> NOVEMBER 29 - DECEMBER 6 </pre>
 Due to some shceduling conflicts, me and Katie had to split up and work on separate dwarfs. The remaining one was Dopey (so I resurrected him after he got deleted from the script), and even though that I got a bit behind, I started designing him. 
 Since I will have only one controller available, the functionality will be a little limited and simplistic. 
-
+## Initial Sketch
 <p><img src ="https://user-images.githubusercontent.com/89770035/144753755-23b65b32-6f73-41a9-83c0-a996410cf540.jpg" width ="50%" height="50%"></p>
 
+## Neopixel ideas
 <p><img src ="https://user-images.githubusercontent.com/89770035/144753793-ff51bd89-568e-4c05-99f8-b0e374b4b8cb.jpg" width ="50%" height="50%"></p>
 
+## Description 
+I initially wanted Dopey to have only two wheels (two DC motors) so he gives a clumsy look and feel to his character, however, in testing stages, it proved to be too unreliable. I therefore, changed it to four DC motors, one neopixel for a mouth/lips, and two small servo motors to move his big ears. In addition to these technical components, he will also have huge anime eyes, and a proper stuffed dwarf hat.
 
 
+## In the making
+This was the very first attempt to build Dopey as I originally envisioned it (see the Initial Sketch). I wanted him to a vertical rectangle with two wheels), however, when I put that to test, it turned out to be very difficult for him keep balance. On the brighter note, I think I finally figured out how to attach the DC motors properly - I used pieces of cardboard to wrap the motor and glue it to the cardboard body. 
+<p><img src ="https://user-images.githubusercontent.com/89770035/144754250-a3626e69-0f10-4354-91f4-8577d19a8d8b.JPG" width ="50%" height="50%"></p>
+
+So I decided to include a rectangular base, which will have four wheels (4 DC motors) instead. This will provide for better balance, stability and make Dopey more sturdy. (the paper clips are holding the box pieces together as a temporary measure, so I can keep opening it up and accessing it). Dopey's head will be sitting on the top of this box. What is more, this will provide for more space to put all the cables, H-bridges, arduino and breadboard. 
+<p><img src ="https://user-images.githubusercontent.com/89770035/144754316-6dc01199-1988-4e25-bc37-f6138f3d2f77.JPG" width ="50%" height="50%"></p>
+
+This idea turned out relatively well. I managed to attach all four DC motors (after remembering how to solder the remaining two motors, its cables and attach the H-bridge - that was quite a memory exercise, let me tell you). However, I underestimated how much space I will need to hide the arduino, batteries, breadboard anf two H-bridges. Even though that I was able to fit everything in, it was a mess and a direct recepipe for a short circuit. 
+
+<p><img src ="https://user-images.githubusercontent.com/89770035/144754457-97a6cfa3-5392-4cbc-b0fc-9e120ac14dc1.JPG" width ="50%" height="50%">
+ <img src ="https://user-images.githubusercontent.com/89770035/144754450-6cde5191-9cab-499d-9575-9995d5311c93.JPG" width ="50%" height="50%">
+</p>
 
 
