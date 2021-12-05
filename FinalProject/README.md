@@ -36,7 +36,9 @@ Since I will have only one controller available, the functionality will be a lit
 <p><img src ="https://user-images.githubusercontent.com/89770035/144753793-ff51bd89-568e-4c05-99f8-b0e374b4b8cb.jpg" width ="50%" height="50%"></p>
 
 ## Description 
-I initially wanted Dopey to have only two wheels (two DC motors) so he gives a clumsy look and feel to his character, however, in testing stages, it proved to be too unreliable. I therefore, changed it to four DC motors, one neopixel for a mouth/lips, and two small servo motors to move his big ears. In addition to these technical components, he will also have huge anime eyes, and a proper stuffed dwarf hat.
+I initially wanted Dopey to have only two wheels (two DC motors) so he gives a clumsy look and feel to his character, however, in testing stages, it proved to be too unreliable. I therefore, changed it to four DC motors, one neopixel for a mouth/lips, and two small servo motors to move his big ears. In addition to these technical components, he will also have huge anime eyes, and a proper stuffed dwarf hat. His character does not talk and is supposed to give out a very confused, clumsy, but very cute impression. 
+
+I want to use the four controller buttons for locomotion, one potentiometer for moving the ears, and the second potentiomer for possibly changing his Neopixel expression. I am afraid that the potentiometer will be a bit difficult to link with the neopixel expressions - buttons would be ideal for that. However, the controller is very limited and I think I might make it work, using three different potentiomer ranges, that would correspond with three different Neopixel expressions. 
 
 
 ## In the making
@@ -51,5 +53,7 @@ This idea turned out relatively well. I managed to attach all four DC motors (af
 <p><img src ="https://user-images.githubusercontent.com/89770035/144754457-97a6cfa3-5392-4cbc-b0fc-9e120ac14dc1.JPG" width ="50%" height="50%">
  <img src ="https://user-images.githubusercontent.com/89770035/144754450-6cde5191-9cab-499d-9575-9995d5311c93.JPG" width ="50%" height="50%">
 </p>
+
+
 
 
