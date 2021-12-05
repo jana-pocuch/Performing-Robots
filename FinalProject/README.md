@@ -1,5 +1,6 @@
-# Grumpy
+# Final Project: Snow White
 
+NOVEMBER 28
 ## Robot Sketches
 
 <p>
@@ -23,5 +24,17 @@ Grumpy is just staring at Snow white (DC motors not moving) and then angrily thr
 
 ### Scene 5 (Snow White falls asleep because of the bug) 
 Grumpy's arms lower, his neopixel state goes to "indifferent". He slowly moves around Snow White in confusion. 
+
+NOVEMBER 29 - DECEMBER 6
+# AND JUST LIKE THAT, DOPEY IT IS
+Due to some shceduling conflicts, me and Katie had to split up and work on separate dwarfs. The remaining one was Dopey (so I resurrected him after he got deleted from the script), and even though that I got a bit behind, I started designing him. 
+Since I will have only one controller available, the functionality will be a little limited and simplistic. 
+
+<p><img src ="https://user-images.githubusercontent.com/89770035/144753755-23b65b32-6f73-41a9-83c0-a996410cf540.jpg" width ="50%" height="50%"></p>
+
+<p><img src ="https://user-images.githubusercontent.com/89770035/144753793-ff51bd89-568e-4c05-99f8-b0e374b4b8cb.jpg" width ="50%" height="50%"></p>
+
+
+
 
 
