@@ -55,11 +55,17 @@ This idea turned out relatively well. I managed to attach all four DC motors (af
  <img src ="https://user-images.githubusercontent.com/89770035/144754450-6cde5191-9cab-499d-9575-9995d5311c93.JPG" width ="30%" height="30%">
 </p>
 
-After getting the basis done, I worked on adding the ears and attaching them to the small servo motors, that are secured in the middle of the "face" box. 
+After getting the base done, I worked on adding the ears and attaching them to the small servo motors, that are secured in the middle of the "face" box. 
 <p><img src ="https://user-images.githubusercontent.com/89770035/144754970-a4909754-76ea-4b17-adea-c00c574f51c7.JPG" width ="50%" height="50%"></p>
 
 And this it the final first prototype, together with a stuffed hat I made. 
 <p><img src ="https://user-images.githubusercontent.com/89770035/144755033-8a8b0129-7973-42ef-9612-5ec94ce48fff.JPG" width ="50%" height="50%"></p>
+
+### Next building steps
+- rebuilding the base (making it bigger) so it can reliably fit (and hide) all the components, including batteries, arduino, two h-bridges, cables and a breadboard. 
+- draw and attach the eyes
+- cut out space for neopixel on the face and securely attach it
+- attach the hat
 
 
 
