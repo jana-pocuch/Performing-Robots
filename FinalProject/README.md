@@ -45,15 +45,21 @@ I want to use the four controller buttons for locomotion, one potentiometer for 
 This was the very first attempt to build Dopey as I originally envisioned it (see the Initial Sketch). I wanted him to a vertical rectangle with two wheels), however, when I put that to test, it turned out to be very difficult for him keep balance. On the brighter note, I think I finally figured out how to attach the DC motors properly - I used pieces of cardboard to wrap the motor and glue it to the cardboard body. 
 <p><img src ="https://user-images.githubusercontent.com/89770035/144754250-a3626e69-0f10-4354-91f4-8577d19a8d8b.JPG" width ="50%" height="50%"></p>
 
-So I decided to include a rectangular base, which will have four wheels (4 DC motors) instead. This will provide for better balance, stability and make Dopey more sturdy. (the paper clips are holding the box pieces together as a temporary measure, so I can keep opening it up and accessing it). Dopey's head will be sitting on the top of this box. What is more, this will provide for more space to put all the cables, H-bridges, arduino and breadboard. 
+So I decided to include a rectangular base, which will have four wheels (4 DC motors) instead. This will provide for better balance, stability and make Dopey more sturdy. (the paper clips are holding the box pieces together as a temporary measure, so I can keep opening it up and accessing it). Dopey's head will be sitting on the top of this box. What is more, this will provide for more space to put all the cables, H-bridges, arduino and breadboard.
+
 <p><img src ="https://user-images.githubusercontent.com/89770035/144754316-6dc01199-1988-4e25-bc37-f6138f3d2f77.JPG" width ="50%" height="50%"></p>
 
 This idea turned out relatively well. I managed to attach all four DC motors (after remembering how to solder the remaining two motors, its cables and attach the H-bridge - that was quite a memory exercise, let me tell you). However, I underestimated how much space I will need to hide the arduino, batteries, breadboard anf two H-bridges. Even though that I was able to fit everything in, it was a mess and a direct recepipe for a short circuit. 
 
-<p><img src ="https://user-images.githubusercontent.com/89770035/144754457-97a6cfa3-5392-4cbc-b0fc-9e120ac14dc1.JPG" width ="50%" height="50%">
- <img src ="https://user-images.githubusercontent.com/89770035/144754450-6cde5191-9cab-499d-9575-9995d5311c93.JPG" width ="50%" height="50%">
+<p><img src ="https://user-images.githubusercontent.com/89770035/144754457-97a6cfa3-5392-4cbc-b0fc-9e120ac14dc1.JPG" width ="30%" height="30%">
+ <img src ="https://user-images.githubusercontent.com/89770035/144754450-6cde5191-9cab-499d-9575-9995d5311c93.JPG" width ="30%" height="30%">
 </p>
 
+After getting the basis done, I worked on adding the ears and attaching them to the small servo motors, that are secured in the middle of the "face" box. 
+<p><img src ="https://user-images.githubusercontent.com/89770035/144754970-a4909754-76ea-4b17-adea-c00c574f51c7.JPG" width ="50%" height="50%"></p>
+
+And this it the final first prototype, together with a stuffed hat I made. 
+<p><img src ="https://user-images.githubusercontent.com/89770035/144755033-8a8b0129-7973-42ef-9612-5ec94ce48fff.JPG" width ="50%" height="50%"></p>
 
 
 
